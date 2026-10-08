@@ -20,7 +20,7 @@ jobs:
 
       - name: Собрать APK
         run: |
-          chmod +x ./gradlew
+          chmod +x build.gradle
           ./gradlew assembleDebug
 
       - name: Загрузить APK
